@@ -32,3 +32,10 @@ for ele in prefixExp[::-1]: #iterate list backwards
         postfixStk.append(ele) #if not operator add that operand to top of stack
 
 print("".join(postfixStk))
+
+"""
+Output
+AB+C*DE-FG+*-
+Input
+-*+ABC*-DE+FG
+"""
